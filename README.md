@@ -1,0 +1,2 @@
+# SmartSchedule
+Schedule for school
