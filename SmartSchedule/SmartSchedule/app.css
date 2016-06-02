@@ -1,7 +1,41 @@
 ﻿body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI';
+}
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-weight:100;
 }
 
-span {
-    font-style: italic;
+#background {
+    background:url(http://www.photos-public-domain.com/wp-content/uploads/2011/02/black-vertical-siding-texture.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100%;
+    padding-top:10%;
+}
+
+#skolschema{
+    width:90%;
+    margin-left:5%;
+    top:10%;
+    padding:6% 0%;
+    border:1px solid #fff;
+    background:rgba(0, 0, 0, 0.3);
+    box-shadow:0px 0px 40px #000;
+}
+#skolschema tr{
+    width:20%;
+    float:left;
+}
+#skolschema td, #skolschema th{
+    color:#fff;
+    display:block;
+    text-align:center;
+    font-size:20px;
+    padding:4% 0;
+}
+#skolschema th{
+    font-size:25px;
 }
