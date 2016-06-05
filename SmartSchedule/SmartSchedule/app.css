@@ -13,9 +13,9 @@
     background:url(http://www.photos-public-domain.com/wp-content/uploads/2011/02/black-vertical-siding-texture.jpg);
     background-size:cover;
     background-repeat:no-repeat;
-    height:100%;
+    height:100vh;
     width:100%;
-    top:0;gh
+    top:0;
     position:fixed;
     z-index:-100;
 }
@@ -30,7 +30,9 @@
 }
 #skolschema tr{
     width:20%;
+    height:100%;
     float:left;
+    margin:0;
 }
 #skolschema td, #skolschema th{
     color:#fff;
@@ -38,6 +40,7 @@
     text-align:center;
     font-size:20px;
     padding:4% 0;
+    width:100%;
 }
 #skolschema th{
     font-size:25px;
